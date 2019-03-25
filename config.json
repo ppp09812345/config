@@ -10,7 +10,9 @@
     "settings": {
       "clients": [
         {
-          "id": "971cf8cc-4e46-4c35-af30-8ec2aec90d1e"
+          "id": "971cf8cc-4e46-4c35-af30-8ec2aec90d1e",
+          "level": 1,
+          "alterId": 60          
         }
       ]
     }
@@ -20,8 +22,10 @@
     "protocol": "shadowsocks",
     "settings": {
       "method": "aes-128-gcm",
-      "ota": true,
-      "password": "liuyudongniubi666"
+      "ota": false,
+      "password": "liuyudongniubi666",
+      "level": 1,
+      "udp": true
     }
   },
   "outbound": {
